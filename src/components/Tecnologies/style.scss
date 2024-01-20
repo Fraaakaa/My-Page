@@ -1,0 +1,18 @@
+.imgContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    .img{
+        height: 30vh;
+        width: 100%;
+        margin-bottom: 10px;
+        
+    }
+    .imgTitle{
+        color: white;
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+}
