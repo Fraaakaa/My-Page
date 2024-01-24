@@ -8,25 +8,46 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    .linkersContainer{
+        display: flex;
+        margin: 0 5vw;
+        .linkers{
+            background-color: rgb(43, 43, 139);
+            border: none;
+            font-size: 1.4rem;
+            color: white;
+            text-decoration: none;
     
+            &:hover{
+                font-size: 1.5rem;
+            }
 
-    .linkers{
-        background-color: rgb(43, 43, 139);
-        border: none;
-        font-size: 1.4rem;
-        color: white;
-        text-decoration: none;
+            @media only screen and (max-width: 767px){
+                font-size: 4vw;
+            }
 
-        &:hover{
-            font-size: 1.5rem;
+            @media only screen and (max-width: 544px){
+                font-size: 3.5vw;
+                &:hover{
+                    font-size: 4.5vw;
+                }
+            }
+
+            @media only screen and (max-width: 465px){
+                font-size: 3.8vw;
+                &:hover{
+                    font-size: 4.5vw;
+                }
+            } 
+            
         }
-        
-    }
-
-    .cut{
-        height: 25px;
-        width: 1px;
-        background-color: white;
-        margin: 0 20px;
+    
+        .cut{
+            height: 25px;
+            width: 1px;
+            background-color: white;
+            margin: 0 20px;
+        }
     }
 }

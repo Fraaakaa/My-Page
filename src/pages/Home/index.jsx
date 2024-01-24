@@ -3,6 +3,7 @@ import Description from "../../components/Description";
 import NavBar from "../../components/NavBar";
 import Tecnologies from "../../components/Tecnologies";
 import Card from "../../components/Card";
+import Abilities from "../../components/Abilities";
 
 
 function Home() {
@@ -19,8 +20,13 @@ function Home() {
     </div>
     
     <div className="tecnologiesContainer">
-      <h1 className="tecTitle">Tecnologias que empleo:</h1>
+      <h1 className="tecTitle">Tecnologias que empleo</h1>
       <Tecnologies/>
+    </div>
+
+    <div className="abilitiesContainer">
+    <h1 id="habilidades" className="tecTitle">Habilidades</h1>
+    <Abilities/>
     </div>
 
     <div id="misProyectos" className="projectsContainer">
