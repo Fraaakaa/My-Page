@@ -1,0 +1,30 @@
+.Curriculum{
+    text-decoration: none;
+    background-color: rgb(66, 66, 167);
+    color: white;
+    padding: 20px 40px;
+
+    width: 9vw;
+    font-size: 1.5vw;
+    text-align: center;
+    font-weight: bold;
+
+    border-radius: 10px;
+
+    transition: all .2s ease-out;
+
+    &:hover{
+        border-radius: 30px;
+        padding: 22px 40px;
+    }
+    @media only screen and (max-width: 681px) {
+        font-size: 2.2vw;
+        width: 10.5vw;
+        
+    }
+    
+    @media only screen and (max-width: 450px) {
+        width: 13vw;
+        font-size: 3vw;
+    }
+}

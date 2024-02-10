@@ -6,10 +6,6 @@ import { useState } from "react"
 import Icon from "../Icon"
 
 function Abilities(){
-    const [click, setClick] = useState(false);
-   function handleClick(){
-    setClick(true);
-   }
 
     return<>
     {data.map((ability, key) => {

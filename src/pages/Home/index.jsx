@@ -4,6 +4,7 @@ import NavBar from "../../components/NavBar";
 import Tecnologies from "../../components/Tecnologies";
 import Card from "../../components/Card";
 import Abilities from "../../components/Abilities";
+import Button from "../../components/Button";
 
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
     <main className="pageContainer">
     <div id="quienSoy" className="titleContainer">
       <h1 className="title">Facundo Fandiño</h1> 
+      <Button/>
     </div>
 
     <div className="descriptionContainer">
