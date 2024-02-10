@@ -1,4 +1,4 @@
-import archives from "../../archives/Curriculum.pdf"
+import archives from "../../archives/CURRICULUM.pdf"
 import "./style.scss" 
 
 function Button(){
